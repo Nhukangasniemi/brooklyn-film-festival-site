@@ -1,0 +1,141 @@
+body {
+    padding-top: 78px;
+    background: lightgrey;
+}
+
+/*NavBar*/
+.navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#navbarSupportedContent {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffd909;
+}
+
+/*CAROUSEL*/
+#carouselExampleIndicators
+{
+    font-size: 5rem;
+    font-family: 'Jua', sans-serif;
+    background-color: white !important;
+}
+
+h2, h4, h5
+{
+    color: #ff5f6a;
+}
+#carouselContainer {
+    background-color: white !important;
+}
+
+/*SECTION*/
+#section1 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.sectionTitle {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 3rem;
+    color: #ff8a48;
+}
+
+.btn-primary {
+    color: #ffd909;
+    background: #212529;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff8a48;
+}
+
+/*SECTION OFFERS*/
+#offer {
+    background-color: whitesmoke !important;
+    margin-bottom: 120px;
+    text-align: center !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#offer p {
+    font-weight: bold;
+}
+
+#offer i {
+    color: #e69b6f;
+}
+
+#offerPara {
+    padding-right: 25px;
+}
+
+#offerPara div {
+    text-align: left;
+}
+
+h3 {
+    color: #ff8a48;
+}
+
+/*FOOTER*/
+#footerSection {
+    background-color: #525266;
+    color: white;
+}
+
+#footerSection a {
+    color: white;
+}
+
+#contact a {
+    color: #ffd909;
+}
+
+
+/*Schedule Table*/
+#scheduleTable {
+    margin: 30px 0 30px 0;
+    padding: 0;
+}
+
+#scheduleTable thead {
+    color: #cf421e;
+    font-size: 1.5rem;
+}
+
+/*Contact Form*/
+#contactForm {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+.sectionTitle {
+    font-size: 2rem;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+#contactForm {
+    width: 80%;
+    height: auto;
+}
+
+#registerHeading {
+    font-size: 1.4rem;
+}
+}
